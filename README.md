@@ -29,27 +29,3 @@ PORT=5555
 5. gør dette for følgende 2 værdier:
 * Name = DOCKERHUB_TOKEN   Value = Access Token som du har oprettet på dockerhub
 * Name = DOCKERHUB_USERNAME   value = dit dockerhub brugernavn
-
-
-## Sonarcloud
-1. Opret en konto på sonarcloud.io med en github konto
-2. Følg anvisningerne
-3. Der burde være en indstilling til, at når man første gang opretter et projekt at man skal give adgang til ens github konto
-
-## Nyt projekt på sonarcloud
-
-1. Klik på Krydset ved siden af din konto oppe i højre hjørne
-2. Scroll ned og vælg dit github repository
-3. Klik på 'Set Up'
-4. Vælg GitHub Actions
-5. Gå ind på dit repo under settings/secrets og opret en ny secret med de givet værdier
-6. Klik Continue
-7. Vælg Maven
-8. Opdater pom.xml med de angivet settings. - ignore de angivet settings til yml.
-
-Sonarcloud er nu sat op til det nye projekt
-
-
-Nu burde pipeline være sat op og klar til brug.
-
-
