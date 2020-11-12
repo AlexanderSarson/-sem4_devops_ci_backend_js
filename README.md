@@ -23,7 +23,7 @@ PORT=5555
 
 ## Nyt repo
 1. lav et nyt github repository med start koden. (husk at slette .git, så du kan lave git init) (H)
-2. Gå ind på settings/secrets
+2. Klik settings fanen og derefter secrets under dit repository på github.com
 3. Klik på 'New secret'
 4. indtast 'DOCKERHUB_IMAGENAME' under Name og sæt value til dit image navn og klik 'Add secret'
 5. gør dette for følgende 2 værdier:
